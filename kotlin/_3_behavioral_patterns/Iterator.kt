@@ -1,9 +1,9 @@
 package _3_behavioral_patterns
 
-import _2_structural_patterns.bridge.RegularLegs
-import _2_structural_patterns.bridge.Rifle
-import _2_structural_patterns.bridge.StormTrooper
-import _2_structural_patterns.bridge.Trooper
+import _2_structural_patterns._3_bridge.RegularLegs
+import _2_structural_patterns._3_bridge.Rifle
+import _2_structural_patterns._3_bridge.StormTrooper
+import _2_structural_patterns._3_bridge.Trooper
 
 
 fun main() {

@@ -1,6 +1,4 @@
 
->
-kotlin/Main.kt,b/d/bd4f2749d8416bd50a9a073571223e589c0ab3d5
 Y
 )kotlin/_3_behavioral_patterns/Strategy.kt,9/7/97bc75d3cffda75b9712ba36affbd1c21f2c1836
 \
@@ -9,3 +7,13 @@ d
 4kotlin/_2_structural_patterns/decorator/Decotator.kt,a/c/ac213ef1e05537f0914295c99bba74d85e214b86
 d
 4kotlin/_2_structural_patterns/flyweight/FlyWeight.kt,d/a/da7f18206f9b753d69b32c64e303b0d3696d8668
+d
+4kotlin/_2_structural_patterns/composite/Composite.kt,f/1/f1d0d52fd1e1df5d67a8bbc3727441da1d5c2798
+X
+(kotlin/_3_behavioral_patterns/Command.kt,8/b/8bec3ad2d163aeb9bf9968de3a533334516a65fe
+\
+,kotlin/_3_behavioral_patterns/Interpreter.kt,9/8/9878eca0eee2ee6ad712fb74033f817898e87fc2
+V
+&kotlin/_3_behavioral_patterns/State.kt,b/a/ba6ab8680841cacf58cc8e653117e08ee32b487b
+g
+7kotlin/_1_creational_patterns/abstractfactory/Parser.kt,0/5/0527b3a19632f498330b36201a1c120fdbc22798

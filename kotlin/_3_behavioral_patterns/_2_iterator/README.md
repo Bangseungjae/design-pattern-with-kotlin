@@ -59,7 +59,7 @@ operator fun iterator() = object: Iterator<Trooper> {
 
 ```
 
-1. 다음으로는 언제 반복문을 멈춰야 할지 알려 줘야 한다.
+2. 다음으로는 언제 반복문을 멈춰야 할지 알려 줘야 한다.
 
 ```kotlin
         override fun hasNext(): Boolean {
@@ -67,7 +67,7 @@ operator fun iterator() = object: Iterator<Trooper> {
         }
 ```
 
-1. 마지막으로 어떤 원소를 반환할지 알아야 한다. 간단한 경우에는 그냥 현재 원소를 반환하고 다음 원소로 이동하면 된다.
+3. 마지막으로 어떤 원소를 반환할지 알아야 한다. 간단한 경우에는 그냥 현재 원소를 반환하고 다음 원소로 이동하면 된다.
 
 ```kotlin
 override fun next(): Trooper = units[i++]

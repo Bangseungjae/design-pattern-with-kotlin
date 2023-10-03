@@ -2,7 +2,15 @@ package _3_behavioral_patterns.template_method
 
 
 fun main() {
-
+    runSchedule(
+        afterLunch = fun() {
+            println("Discuss my lunch with boss' secretary")
+            println("Read something not related to work")
+        }, beforeLunch = fun() {
+            println("Look for my next trip destination")
+            println("Read StackOverflow")
+        }, bossHook = { println("Boss: Can we talk privately?") }
+    )
 }
 
 fun runSchedule(

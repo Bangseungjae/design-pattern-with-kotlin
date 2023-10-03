@@ -1,16 +1,19 @@
 package _1_creational_patterns.abstractfactory
 
-import java.lang.RuntimeException
+fun main() {
+    val environment = Parser.server(listOf("port: 8080", "environment: production"))
+    println(environment)
+}
 
 class Parser {
 
     companion object {
-
         fun server(propertyStrings: List<String>): ServerConfiguration {
             val parsedProperties = mutableListOf<Property>()
             for (p in propertyStrings) {
                 parsedProperties += property(p)
             }
+
             return ServerConfigurationImpl(parsedProperties)
         }
 
@@ -20,14 +23,34 @@ class Parser {
             return when (name) {
                 "port" -> IntProperty(name, value.trim().toInt())
                 "environment" -> StringProperty(name, value.trim())
-                else -> throw RuntimeException("알 수 없는 속성: $name")
+                else -> throw RuntimeException("Unknown property: $name")
             }
-
         }
     }
 }
 
-fun main() {
-    val environment = Parser.server(listOf("port: 8080", "environment: production"))
-    println(environment)
+
+interface Property {
+
+    val name: String
+    val value: Any
 }
+
+
+interface ServerConfiguration {
+    val properties: List<Property>
+}
+
+data class ServerConfigurationImpl(
+    override val properties: List<Property>
+) : ServerConfiguration
+
+data class StringProperty(
+    override val name: String,
+    override val value: String
+) : Property
+
+data class IntProperty(
+    override val name: String,
+    override val value: Int
+) : Property

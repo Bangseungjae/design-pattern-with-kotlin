@@ -1,8 +1,6 @@
 
 Y
 )kotlin/_3_behavioral_patterns/Strategy.kt,9/7/97bc75d3cffda75b9712ba36affbd1c21f2c1836
-X
-(kotlin/_3_behavioral_patterns/Command.kt,8/b/8bec3ad2d163aeb9bf9968de3a533334516a65fe
 \
 ,kotlin/_3_behavioral_patterns/Interpreter.kt,9/8/9878eca0eee2ee6ad712fb74033f817898e87fc2
 V
@@ -11,18 +9,10 @@ h
 8kotlin/_1_creational_patterns/_2_factorymethod/README.md,c/1/c10a5ad7bf43d1c6ba1bafd603d76e947f8fd61a
 j
 :kotlin/_1_creational_patterns/_3_abstractfactory/README.md,a/8/a8d3595f89bc74318a1ab7167b3728e97e6fc728
-X
-(kotlin/_3_behavioral_patterns/Memento.kt,1/8/18727848fcb1f2aba4ed3713e7ab5dd52dfbf90b
 d
 4kotlin/_1_creational_patterns/_5_prototype/README.md,8/2/82d32179a0963e19e775469f8b5c45a64b754b19
-Y
-)kotlin/_3_behavioral_patterns/Mediator.kt,3/c/3c4cbc04c097e9db63dd2730e57ba9bb2a6711ae
 W
 'kotlin/_2_structural_patterns/README.md,5/c/5c2d753adcca9a201dcadf22296094ee35abab91
-W
-'kotlin/_3_behavioral_patterns/README.md,c/5/c53e94d9426754fb1af9815031d8550645aac4d5
-f
-6kotlin/_3_behavioral_patterns/ChainOfResponsibility.kt,3/8/38187a2d6efdbff6996282891d1da5fd4bf5692f
 `
 0kotlin/_3_behavioral_patterns/visitor/Visitor.kt,8/5/856e372620687cea8681182e4b2759d274a7f753
 o

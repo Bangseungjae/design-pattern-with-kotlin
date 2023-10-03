@@ -1,5 +1,19 @@
 package _1_creational_patterns.prototype
 
+fun main() {
+    val originalUser = User(
+        name = "admin1",
+        role = Role.ADMIN,
+        permissions =  setOf("READ", "WRITE", "DELETE"),
+        tasks =  listOf("task1", "task2")
+    )
+    allUsers += originalUser
+
+    createUser("admin2", Role.ADMIN)
+
+    println(allUsers)
+}
+
 data class User(
     val name: String,
     val role: Role,

@@ -69,6 +69,8 @@ operator fun iterator() = object: Iterator<Trooper> {
 
 3. 마지막으로 어떤 원소를 반환할지 알아야 한다. 간단한 경우에는 그냥 현재 원소를 반환하고 다음 원소로 이동하면 된다.
 
+<br/>
+
 ```kotlin
 override fun next(): Trooper = units[i++]
 ```
@@ -159,7 +161,7 @@ class Squad(private val units: List<Trooper>) : Trooper {
     operator fun iterator(): Iterator<Trooper> = TrooperIterator(units)
 }
 ```
-
+<br/>
 결과
 
 ```kotlin

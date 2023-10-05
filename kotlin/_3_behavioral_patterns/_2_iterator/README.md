@@ -78,9 +78,13 @@ override fun next(): Trooper = units[i++]
 Squad 같은 경우에는 더 복잡하다. 다음 전체 코드를 참고하라.
 
 ```kotlin
-package ch4
+package _3_behavioral_patterns._2_iterator
 
-import ch3.bridge.*
+import _2_structural_patterns._3_bridge.RegularLegs
+import _2_structural_patterns._3_bridge.Rifle
+import _2_structural_patterns._3_bridge.StormTrooper
+import _2_structural_patterns._3_bridge.Trooper
+
 
 fun main() {
     val platoon = Squad(
@@ -105,6 +109,7 @@ fun main() {
         println(trooper)
     }
 }
+
 
 class TrooperIterator(private val units: List<Trooper>) : Iterator<Trooper> {
     private var i = 0
@@ -145,6 +150,7 @@ class TrooperIterator(private val units: List<Trooper>) : Iterator<Trooper> {
     }
 }
 
+
 class Squad(private val units: List<Trooper>) : Trooper {
     constructor(vararg units: Trooper) : this(units.toList())
     override fun move(x: Long, y: Long) {
@@ -160,6 +166,7 @@ class Squad(private val units: List<Trooper>) : Trooper {
 
     operator fun iterator(): Iterator<Trooper> = TrooperIterator(units)
 }
+
 ```
 <br/>
 결과

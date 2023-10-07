@@ -566,8 +566,8 @@ if (childId == 8 && i == 300_000) {
 ```kotlin
 val parent = launch(Dispatchers.Default) {
         supervisorScope {
-            val children = List(10) { childId ->
-						...
+            val children = List(10) { childId -> 
+            ...
 }
 ```
 

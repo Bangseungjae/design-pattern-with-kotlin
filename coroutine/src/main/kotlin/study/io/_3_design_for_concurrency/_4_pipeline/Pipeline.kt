@@ -1,4 +1,4 @@
-package study.io._3_desine_for_concurrency._4_pipeline
+package study.io._3_design_for_concurrency._4_pipeline
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.ReceiveChannel

@@ -1,4 +1,4 @@
-package study.io._3_desine_for_concurrency._3_scheduler
+package study.io._3_design_for_concurrency._3_scheduler
 
 import kotlinx.coroutines.*
 import java.util.concurrent.Executors

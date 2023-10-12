@@ -1,4 +1,4 @@
-package study.io._3_desine_for_concurrency._5_fan_out
+package study.io._3_design_for_concurrency._5_fan_out
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

@@ -1,4 +1,4 @@
-package study.io._3_desine_for_concurrency._7_racing
+package study.io._3_design_for_concurrency._7_racing
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.channels.produce

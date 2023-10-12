@@ -1,4 +1,4 @@
-package study.io._3_desine_for_concurrency._10_sidekick_channel
+package study.io._3_design_for_concurrency._10_sidekick_channel
 
 import kotlinx.coroutines.channels.actor
 import kotlinx.coroutines.delay

@@ -1,4 +1,4 @@
-package study.io._3_desine_for_concurrency._1_deferred_value
+package study.io._3_design_for_concurrency._1_deferred_value
 
 import kotlinx.coroutines.*
 import java.lang.RuntimeException

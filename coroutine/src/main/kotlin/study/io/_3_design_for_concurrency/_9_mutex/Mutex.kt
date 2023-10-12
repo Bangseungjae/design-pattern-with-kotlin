@@ -1,4 +1,4 @@
-package study.io._3_desine_for_concurrency._9_mutex
+package study.io._3_design_for_concurrency._9_mutex
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async

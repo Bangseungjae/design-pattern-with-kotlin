@@ -1,4 +1,4 @@
-package study.io._3_desine_for_concurrency._6_fan_in
+package study.io._3_design_for_concurrency._6_fan_in
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -7,7 +7,7 @@ import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.consumeEach
 import kotlinx.coroutines.runBlocking
-import study.io._3_desine_for_concurrency._5_fan_out.generateWork
+import study.io._3_design_for_concurrency._5_fan_out.generateWork
 
 fun main() {
     runBlocking {

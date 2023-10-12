@@ -1,10 +1,9 @@
-package study.io._3_desine_for_concurrency._8_unbiased_select
+package study.io._3_design_for_concurrency._8_unbiased_select
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.channels.produce
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.selects.select
 import kotlinx.coroutines.selects.selectUnbiased
 
 fun main() {

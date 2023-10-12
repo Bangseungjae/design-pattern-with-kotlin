@@ -1,4 +1,4 @@
-package study.io._3_desine_for_concurrency._2_barrier
+package study.io._3_design_for_concurrency._2_barrier
 
 import kotlinx.coroutines.*
 import kotlin.random.Random
